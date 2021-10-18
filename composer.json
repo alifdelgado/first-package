@@ -1,0 +1,33 @@
+{
+    "name": "dev/first-package",
+    "autoload": {
+        "psr-4": {
+            "Spike\\FirstPackage\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Spike\\FirstPackage\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alifdelgado",
+            "email": "alifdelgado@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.21"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spike\\FirstPackage\\FirstPackageServiceProvider"
+            ],
+            "aliases": {
+                "FirstPackage": "Spike\\FirstPackage\\Facades\\FirstPackage"
+            }
+        }
+    }
+}
