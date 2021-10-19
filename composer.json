@@ -23,7 +23,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spike\\FirstPackage\\FirstPackageServiceProvider"
+                "Spike\\FirstPackage\\FirstPackageServiceProvider",
+                "Spike\\FirstPackage\\RouteServiceProvider"
             ],
             "aliases": {
                 "FirstPackage": "Spike\\FirstPackage\\Facades\\FirstPackage"
