@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Spike\\FirstPackage\\Tests\\Unit\\HelloTest::it_returns_the_message":3},"times":{"Spike\\FirstPackage\\Tests\\Unit\\HelloTest::it_returns_the_message":0.101,"Spike\\FirstPackage\\Tests\\Unit\\HelloTest::can_interact_with_models_and_databases":0.024}}
